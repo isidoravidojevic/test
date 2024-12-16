@@ -1,12 +1,14 @@
+import { getImagePathname } from "@/common/pathHelper";
 import Image from "next/image";
 
 export default function Home() {
+
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/test/next.svg"
+          src={getImagePathname("next.svg")}
           alt="Next.js logo"
           width={180}
           height={38}
@@ -32,7 +34,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/test/vercel.svg"
+              src={getImagePathname("vercel.svg")}
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -58,7 +60,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/test/file.svg"
+            src={getImagePathname("file.svg")}
             alt="File icon"
             width={16}
             height={16}
@@ -73,7 +75,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/test/window.svg"
+            src={getImagePathname("window.svg")}
             alt="Window icon"
             width={16}
             height={16}
@@ -88,7 +90,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/test/globe.svg"
+            src={getImagePathname("globe.svg")}
             alt="Globe icon"
             width={16}
             height={16}
