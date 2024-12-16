@@ -1,7 +1,7 @@
 {
   "name": "proba",
   "version": "0.1.0",
-  "homepage": "https://isidoravidojevic.github.io",
+  "homepage": "https://isidoravidojevic.github.io/test",
   "private": true,
   "scripts": {
     "dev": "next dev",
