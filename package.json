@@ -10,7 +10,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out -t true",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME"
+    "static": "next build && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME"
   },
   "dependencies": {
     "next": "15.1.0",
